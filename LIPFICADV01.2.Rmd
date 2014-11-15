@@ -1,0 +1,33 @@
+---
+title: "Conventions"
+author: "Robert A. Stevens"
+date: "Monday, July 28, 2014"
+output: html_document
+---
+
+# Learning IPython for Interactive Computing and Data Visualization
+
+by Cyrille Rossant
+
+https://github.com/rossant/ipython-minibook
+
+## Chapter 1. Getting Started with IPython
+
+Quick benchmarking with the %timeit command (p. 17)
+
+## Python code
+
+**TODO**:  Figure out if/how this will show results
+
+```{r, engine='python'}
+import timeit
+timeit.timeit [x*x for x in range(100000)]
+```
+
+## R code
+
+**TODO**:  
+
+```{r, results="hold", collapse=TRUE}
+system.time(for(x in 1:100000) x^2)
+```
